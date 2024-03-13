@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to Play Puyo Puyo</title>
+    <link rel=icon href="images/favicon.png" type="image/ico">
+    <link rel=stylesheet href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav class="clearfix" id="nav">
+      <a href="home.html"><img class="static logo" src="images/carbuncle.png" title="Carbuncle" alt="Carbuncle">
+        <img class="active logo" src="images/carbuncle.gif">
+      </a>
+      
+      <a href="home.html">
+        <img class="logo-text" src="images/logo.png" title="Home" alt="logo">
+      </a>
+
+      <span class="flex-nav">
+        <a href="howtoplay.html" class="green"><img src="images/nav_icons/green.gif">How to Play</a>
+        <a href="games.html" class="red"><img src="images/nav_icons/red.gif">Games</a>
+        <a href="characters.html" class="yellow"><img src="images/nav_icons/yellow.gif">Characters</a>
+        <a href="learnmore.html" class="blue"><img src="images/nav_icons/blue.gif">Learn More</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+      </span>
+    </nav>
+
+    <script src="functions.js"></script>
+    <!--end navigation bar-->
+    
+    <br><br><br>
+
+    <div id="wrapper">
+    <h1>How to Play Puyo Puyo</h1>
+    <p>The rules to Puyo Puyo are simple, but the skill ceiling is high! This page is dedicated to explaining the most fundamental
+      rules of this puzzle game.
+    </p>
+    
+    <div class="white-box">
+      <h2>The Basics</h2>
+
+      <p>
+        Puyo Puyo can be single-player or multiplayer, 
+        but in most games you play against one other player. Puyo fall from the top of the board in groups of two, and you can move
+        them left and right or rotate them to control where they fall. Once they land, the next group comes up. When four or more Puyo of the 
+        same color land together, they disappear, which causes the puyos on top of them to fall down. 
+      </p>
+
+      <img src="images/1-chain.gif" class="image-center" alt="Puyo popping" title="Puyo popping">
+
+      <p>
+        If your Puyo stack up to the top of the screen in the tile that is labeled with an "x" (the third column from the left), you lose! In multiplayer, 
+        your goal is to make your opponent's board reach this state. Popping Puyo sends over "garbage" Puyo to the opponents board, which blocks their Puyo and brings 
+        them closer to the x-marked tile. 
+      </p>
+
+      <img src="images/lose.gif" class="image-center" alt="Puyo player losing a game" title="When something reaches the top of the third column from the left, you lose! Oh noooo!!!">
+
+      <h2>Chains</h2>
+      <p>
+        When you pop Puyo, the ones on top of them fall down. If the position that they fall in causes more Puyo to explode, a chain reaction (called a "chain") occurs.
+        This is arguably the most important part of the game. Performing a long chain sends much more garbage to your opponent than a short one. A large part of Puyo Puyo gameplay
+        involves creating large chains quickly before your opponent can block you. Skilled players are able to create chains longer than fifteen, although that is not 
+        very practical to do in a battle! 
+      </p>
+
+      <picture>
+        <source srcset="images/19-chain-mobile.gif" media="(max-width: 700px)">
+        <source srcset="images/19-chain.gif">
+        <img src="images/19-chain.gif" class="image-center" alt="A 19 chain" title="A 19-chain! They fill up the entire screen on a standard board...">
+        </picture>
+    </div>
+
+    <div class="white-box">
+      <h2>The Stairs Pattern</h2>
+      <p>
+        One of the more reliable ways to create a long chain is by placing your Puyo in a repeating pattern. The stairs pattern is a simple strategy that I found to be easy to learn. 
+        It involves stacking Puyo in a staircase-like pattern (hence the name). Below is an example of a five-chain
+        that uses the stairs method. Check out the links on the <a href="learnmore.html">Learn More</a> page for a more in-depth explanation of Stairs and other patterns!
+      </p>
+      <img src="images/stairs.gif" class="image-center" alt="Stairs Puyo chain" title="A 5-chain using a simple stairs pattern.">
+    </div>
+    </div>
+</body>
+</html>

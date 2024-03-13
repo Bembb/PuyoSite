@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Puyo Puyo!! Home</title>
+	<link rel=icon href="images/favicon.png" type="image/ico">
+	<link rel=stylesheet href="main.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+	<!--navigation bar-->
+	<nav class="clearfix" id="nav">
+			<a href="home.html"><img class="static logo" src="images/carbuncle.png" title="Carbuncle" alt="Carbuncle">
+				<img class="active logo" src="images/carbuncle.gif">
+			</a>
+			
+			<a href="home.html">
+				<img class="logo-text" src="images/logo.png" title="Home" alt="logo">
+			</a>
+
+		<span class="flex-nav">
+			<a href="howtoplay.html" class="green"><img src="images/nav_icons/green.gif">How to Play</a>
+			<a href="games.html" class="red"><img src="images/nav_icons/red.gif">Games</a>
+			<a href="characters.html" class="yellow"><img src="images/nav_icons/yellow.gif">Characters</a>
+			<a href="learnmore.html" class="blue"><img src="images/nav_icons/blue.gif">Learn More</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+		</span>
+	</nav>
+
+	<script src="functions.js"></script>
+	<!--end navigation bar-->
+
+	<br>
+
+	<div id="wrapper">
+		<img src="images/top-image-1.png" class="top-image" alt="Puyo Puyo characters" title="Arle, Rulue, and Schezo & Amitie, Raffina, and Sig">
+
+		<div class="white-box">
+			<div class="flex-container">
+			<img src="images/nav_icons/purple.gif" class="left title-puyo" alt="Purple Puyo"><h1>Welcome to Puyo Puyo!</h1><img src="images/nav_icons/purple.gif" class="right title-puyo" alt="Purple Puyo">
+			</div>
+
+			<br class="clear">
+
+			<p>
+			Puyo Puyo is a video game franchise that had its first game released in 1991 by now-dissolved Japanese developement company <a href="https://en.wikipedia.org/wiki/Compile_(company)" target="_blank">Compile</a>. It revolves around a 
+			falling-block style puzzle game in which the player has to match four slime-like creatures (called Puyo) of the same color to make them disappear. The 
+			creator believed other puzzle games of the time had "weak" characters, so the Puyo Puyo series features a <a href="characters.html">colorful cast of characters</a> originally from 
+			Compile's Madou Monogatari RPG series and has a much larger focus on its characters compared to many other puzzle games. Puyo Puyo is quite popular in Japan, 
+			but it has sadly not taken off in western countries. There are many <a href="games.html">games</a> that have not been localized into English, but I hope that if their popularity 
+			grows they will be released to the world soon. I made this website to introduce Puyo Puyo to my friends and help new fans learn more about the series. Feel 
+			free to visit any of the pages below for more information!
+			</p>
+			<br>
+		</div>
+		
+		<div class="flex-container-wrap">
+			<div>
+			<a href="howtoplay.html">
+				<img src="images/howtoplay.png" alt="How to Play" title="How to Play">
+			</a>	
+			<p>How to Play Puyo Puyo</p>
+			</div>
+			
+			<div>
+			<a href="games.html">
+				<img src="images/games.png" alt="Games" title="Games">
+			</a>
+			<p>Games</p>
+			</div>
+			
+			<div>
+			<a href="characters.html">
+				<img src="images/characters.png" alt="Characters" title="Characters">
+			</a>
+			<p>Characters</p>
+			</div>
+			
+			<div>
+			<a href="learnmore.html">
+				<img src="images/learnmore.png" alt="Learn More" title="Learn More">
+			</a>
+			<p>Learn More!</p>
+			</div>
+		</div>
+
+		<div class="contact">
+				<h2>Contact</h2>
+				<p>Have any questions? Feel free to fill out this form!</p>
+
+				<form>
+				<div class="flex-container-wrap">
+				
+				<span>
+				<label for="fname">First Name:</label>
+				<input type="text" id="fname"></span>
+
+				<span>
+				<label for="lname">Last Name:</label>
+				<input type="text" id="lname">
+				</span>
+
+				<span>
+				<label for="email">Email Address:</label>
+				<input type="email" id="email">
+				</span>
+
+				</div>
+
+				<label for="comments">Enter your comment:</label>
+				<textarea id="comments" rows=10>Shout out to Payj smith!</textarea>
+				<br>
+
+				<input type="reset">
+				<input type="submit">
+					
+			</form>
+		</div>
+
+	</div>
+  </body>
+</html>
