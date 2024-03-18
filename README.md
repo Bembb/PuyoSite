@@ -1,2 +1,2 @@
 # PuyoSite
-This is a website I created in high school for an HTML class. That's pretty much it. Visit at _
+This is a website I created in high school for an HTML class. That's pretty much it. Visit at https://puyosite.onrender.com/home.html .
